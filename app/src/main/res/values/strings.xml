@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lyrics Auto</string>
+    <string name="connect_spotify">Connect to Spotify</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Not connected to Spotify</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="no_track_playing">No track currently playing</string>
+    <string name="lyrics_loading">Loading lyrics…</string>
+    <string name="no_lyrics">No lyrics found</string>
+    <string name="android_auto_instructions">Open Android Auto on your car\'s display to see lyrics while driving.</string>
+    <string name="app_tagline">Spotify Lyrics for Android Auto</string>
+    <string name="root_title">Lyrics Auto</string>
+    <string name="now_playing_section">Now Playing</string>
+    <string name="lyrics_section">Lyrics</string>
+    <string name="channel_name">Lyrics Auto Service</string>
+    <string name="channel_description">Shows current Spotify lyrics in Android Auto</string>
+    <string name="notification_title">Lyrics Auto</string>
+    <string name="notification_text">Fetching lyrics…</string>
+</resources>

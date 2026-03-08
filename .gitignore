@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android build output
+app/build/
+
+# Gradle wrapper (keep the jar since we copied it manually)
+# gradle/wrapper/gradle-wrapper.jar
