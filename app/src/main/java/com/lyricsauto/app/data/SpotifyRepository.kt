@@ -67,6 +67,10 @@ class SpotifyRepository(private val context: Context) {
     }
 
     fun buildAuthUrl(): String {
+        check(CLIENT_ID != "YOUR_SPOTIFY_CLIENT_ID") {
+            "CLIENT_ID is not configured. Please register your app at " +
+                "https://developer.spotify.com/dashboard and update CLIENT_ID in SpotifyRepository.kt"
+        }
         val verifier = generateCodeVerifier()
         prefs.edit().putString(KEY_CODE_VERIFIER, verifier).apply()
         val challenge = generateCodeChallenge(verifier)
